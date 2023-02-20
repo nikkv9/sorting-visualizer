@@ -1,0 +1,48 @@
+.header {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 2rem;
+}
+.left h2 {
+  color: rgb(2, 32, 66);
+  letter-spacing: 0.1rem;
+}
+.right button {
+  padding: 0.7rem 1rem;
+  border-radius: 0.2rem;
+  border: none;
+  color: aliceblue;
+  font-size: 1.1rem;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+.right button:nth-child(1) {
+  background: crimson;
+}
+.right button:nth-child(2) {
+  background: teal;
+}
+.right button:nth-child(3) {
+  background: rgb(16, 123, 22);
+}
+.right button:nth-child(4) {
+  background: rgb(0, 10, 42);
+}
+.array {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.arrContainer {
+  padding: 3rem;
+  margin-top: 5rem;
+  background-color: rgb(181, 210, 255);
+}
+.arrBar {
+  width: 0.3rem;
+  margin: 0 0.5rem;
+  /* display bars in opposite order */
+  display: inline-block;
+}
